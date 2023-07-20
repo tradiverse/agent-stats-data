@@ -4,7 +4,7 @@ echo "pulling..."
 git pull
 
 echo "adding data..."
-git add ./data
+git add -A
 git commit -m "Save updated data (automated)"
 
 echo "pushing..."
